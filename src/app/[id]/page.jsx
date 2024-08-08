@@ -6,6 +6,7 @@ import Breadcrumb from '../../../components/Breadcrumb';
 import './page.css';
 
 const FoodDetail = () => {
+    
     const pathname = usePathname();
     const id = pathname.split('/').pop();
     const [food, setFood] = useState(null);

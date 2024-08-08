@@ -40,6 +40,8 @@ const Navbar = () => {
             </nav>
             <div className="navbar__search">
                 <BiSearch className="search__vector" />
+                <div className="input">
+
                 <AutoComplete
                     options={options.map(option => (
                         { label: <Link href={`/${option.id}`}>{option.value}</Link>, value: option.value }
@@ -55,6 +57,7 @@ const Navbar = () => {
                     onSearch={(text) => setSearchValue(text)}
                     placeholder="Search"
                 />
+                </div>
             </div>
         </div>
     );
