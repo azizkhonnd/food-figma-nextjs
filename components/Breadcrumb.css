@@ -1,0 +1,17 @@
+.breadcrumb {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb a {
+    color: orange;
+    text-decoration: none;
+}
+
+.breadcrumb span {
+    color: #000;
+}
+
+.breadcrumb.disabled {
+    display: none;
+}

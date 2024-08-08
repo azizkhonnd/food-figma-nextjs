@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: #E6E3E3;
+  padding: 20px;
+  padding-right: 300px;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0px 40px;
+}
+
+.nav__container {
+  width: 100%;
+  max-width: 830px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__user {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 190px;
+}
+
+.user__title {
+  color: #676161;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  margin-right: 160px;
+}
+
+.navbar__search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search__vector {
+  position: relative;
+  top: 11px;
+  left: 88px;
+  fill: #606060;
+}
+
+:where(.css-dev-only-do-not-override-d2lrxs).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  width: 327px;
+  height: 46px;
+  border-radius: 15px;
+  border: 1px solid #FFF;
+  padding: 15px 98px 12px 48px;
+  background: rgba(255, 255, 255, 0.25);
+  outline: none;
+  color: #606060;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 132%;
+  letter-spacing: 0.39px;
+  margin-top: -10px;
+}
+
+
+:where(.css-dev-only-do-not-override-d2lrxs).ant-select:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+  margin: 0;
+  padding: 21px 31px;
+  background: transparent;
+  border: none;
+  outline: none;
+  appearance: none;
+  font-family: inherit;
+}
