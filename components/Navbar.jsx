@@ -39,7 +39,7 @@ const Navbar = () => {
                 </div>
             </nav>
             <div className="navbar__search">
-                <BiSearch className="search__vector" />
+              
                 <div className="input">
 
                 <AutoComplete
